@@ -83,9 +83,7 @@ El diagrama describe el flujo vertical entre capas:
 ---
 
 ## 👨‍💻 Autor
-**David Urrutia Cerón (Bicho)**  
-Estudiante de Ingeniería de Software  
-Minimalista por convicción.  
+?????????????  
 📅 Octubre 2025
 
 ---
