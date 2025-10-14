@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_proyecto1"
+    tools:context=".registro">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp"
+        android:backgroundTint="#CCFFFFFF">
+
+        <LinearLayout
+            android:id="@+id/layoutCampos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <ImageButton
+                android:id="@+id/btnAtras"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start"
+                android:background="@android:color/transparent"
+                android:contentDescription="Volver"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:text="UNIBOOST"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <!-- CAMPOS -->
+            <EditText
+                android:id="@+id/edtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre completo"
+                android:background="@android:drawable/edit_text"
+                android:padding="10dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edtCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo electrónico"
+                android:inputType="textEmailAddress"
+                android:background="@android:drawable/edit_text"
+                android:padding="10dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edtCelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Celular"
+                android:inputType="phone"
+                android:background="@android:drawable/edit_text"
+                android:padding="10dp"
+                android:visibility="gone" />
+
+            <!-- BOTONES -->
+            <Button
+                android:id="@+id/btnRegistrate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="REGÍSTRATE"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:background="@drawable/boton_minimalista"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:id="@+id/btnIniciarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="INICIAR SESIÓN"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:background="@drawable/boton_minimalista"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

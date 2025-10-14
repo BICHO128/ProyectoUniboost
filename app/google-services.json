@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "763234084455",
+    "project_id": "uniboost-698a4",
+    "storage_bucket": "uniboost-698a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763234084455:android:09bed256262c5eedf5d6c2",
+        "android_client_info": {
+          "package_name": "com.camila.proyectouniboost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcgqTPKYsdr7MB950GTFfDWZTSJ9Sgjx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
